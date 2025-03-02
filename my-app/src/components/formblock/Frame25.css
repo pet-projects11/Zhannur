@@ -1,0 +1,122 @@
+.heading1 {
+  align-self: stretch;
+  position: relative;
+}
+
+.divider1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+}
+
+.feature-title1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+
+.feature-list1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm-5);
+  font-size: var(--title-medium-size);
+}
+
+.frame134 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+
+.description2 {
+  background-color: transparent; /* Прозрачный фон */
+  border: none; /* Убираем границы */
+  color: white; /* Цвет текста (например, белый) */
+  font-size: 16px; /* Размер текста */
+  font-weight: bold; /* Жирный шрифт */
+  cursor: pointer; /* Курсор в виде руки при наведении */
+  padding: 10px 20px; /* Внутренние отступы */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Плавные переходы */
+}
+
+.frame135 {
+  width: 179px;
+  height: 43px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-dodgerblue-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--title-medium-size);
+  color: var(--color-white);
+  margin-left: -50px;
+}
+
+.frame133 {
+  position: absolute;
+  height: 76.06%;
+  width: 22.21%;
+  top: 12.5%;
+  right: 7.13%;
+  bottom: 11.44%;
+  left: 70.67%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-xl-7);
+  color: var(--color-black);
+  font-family: var(--m3-display-large);
+}
+
+/* Новые стили для полей ввода */
+.input-field {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid var(--color-gainsboro-200);
+  border-radius: 4px;
+  font-size: var(--title-medium-size);
+  font-family: var(--m3-display-large);
+  color: var(--color-black);
+  margin-top: 0px;
+  background-color: var(--color-white);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--color-dodgerblue-100);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Стили для текстового поля */
+.textarea {
+  height: 52px;
+  resize: none;
+}
+
+/* Стили для выпадающего списка */
+select.input-field {
+  appearance: none;
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+
+/* Стили для кнопки "Жіберу" */
+.frame135:hover {
+  background-color: var(--color-dodgerblue-200);
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.page-title {
+  position: relative;
+  line-height: 32px;
+}
+.frame126 {
+  position: absolute;
+  height: 100%;
+  width: 324px;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: -10%;
+  border-radius: var(--br-2xs);
+  border: 2px solid var(--color-dodgerblue-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mid) var(--padding-47xl);
+}
+.group9 {
+  width: 248px;
+  height: 63px;
+  position: relative;
+  text-align: left;
+  font-size: var(--headline-small-size);
+  color: var(--color-dodgerblue-100);
+  font-family: var(--m3-display-large);
+}

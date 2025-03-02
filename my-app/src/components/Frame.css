@@ -1,0 +1,49 @@
+.text10 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: var(--label-large-line-height);
+  font-weight: 500;
+}
+.text11 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: var(--title-small-line-height);
+  font-weight: 500;
+}
+.vector-icon {
+  width: 8.4px;
+  position: relative;
+  height: 12.6px;
+  object-fit: contain;
+}
+.frame9 {
+  align-self: stretch;
+  border-radius: var(--br-6xs-4);
+  border: 1.1px solid var(--color-darkgray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-2xs-7);
+  gap: var(--gap-0);
+  font-size: var(--title-medium-size);
+  font-family: var(--m3-display-large);
+  color: var(--color-black);
+}
+.frame8 {
+  width: 205.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs-3);
+  text-align: left;
+  font-size: var(--label-large-size);
+  color: var(--color-black);
+  font-family: var(--m3-display-large);
+}
+.frame9:focus {
+  outline: none;
+  border-color: var(--color-dodgerblue-100);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

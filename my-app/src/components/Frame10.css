@@ -1,0 +1,150 @@
+.text15 {
+  position: relative;
+  font-size: var(--title-medium-size);
+  letter-spacing: 0.15px;
+  line-height: var(--title-medium-line-height);
+  font-family: var(--m3-display-large);
+  color: var(--color-white);
+  text-align: left;
+}
+
+.frame20 {
+  align-self: stretch;
+  height: 39.5px;
+  border-radius: var(--br-6xs-4);
+  background-color: var(--color-dodgerblue-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-2xs-7);
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.frame19 {
+  height: 60.8px;
+  width: 205.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.frame18 {
+  margin: 0;
+  margin-top: 20px;
+  align-self: stretch;
+  left: 14%;
+  height: 117.3px;
+  width: 1130px;
+  border-radius: var(--br-2xl-3);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-7) var(--padding-2xs-7) var(--padding-2xs-7)
+    var(--padding-7xl-7);
+  box-sizing: border-box;
+  gap: var(--gap-2xs-7);
+  position: relative;
+}
+
+.frame10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--m3-label-large-size);
+  color: var(--color-white);
+  font-family: var(--m3-display-large);
+}
+
+/* Стили для кнопки "Іздеу" */
+.frame20:hover {
+  background-color: var(--color-dodgerblue-200);
+  cursor: pointer;
+}
+
+/* Стили для иконок (если нужно) */
+.icon-list {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+}
+
+
+
+.text8 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.25px;
+  line-height: 64px;
+  font-weight: 700;
+  font-family: inherit;
+  text-shadow: 0px 4.3px 4.3px rgba(0, 0, 0, 0.1);
+}
+.text9 {
+  margin: 0;
+  position: relative;
+  font-size: var(--display-small-size);
+  line-height: 44px;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 0px 4.3px 4.3px rgba(0, 0, 0, 0.1);
+}
+.frame7 {
+  width: 698.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--display-large-size);
+  color: var(--color-white);
+  font-family: var(--m3-display-large);
+}
+.frame21 {
+  position: absolute;
+  width: 80%;
+  top: calc(50% - 176px);
+  right: 10.07%;
+  left: 9.93%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  text-align: left;
+  font-size: var(--display-large-size);
+  color: var(--color-white);
+  font-family: var(--m3-display-large);
+}
+.rectangle-icon {
+  position: absolute;
+  height: 100%;
+  width: 1920px;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.group {
+  width: 1920px;
+  height: 658px;
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--display-large-size);
+  color: var(--color-white);
+  font-family: var(--m3-display-large);
+  background-image: url("/540-rectangle@2x.png");
+}

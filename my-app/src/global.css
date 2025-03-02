@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+html::-webkit-scrollbar {
+  width: 0;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Fonts */
+  --m3-display-large: Roboto;
+
+  /* font sizes */
+  --font-size-2xs-6: 10.6px;
+  --font-size-xs-6: 11.6px;
+  --m3-label-large-size: 14px;
+  --font-size-base-6: 16.6px;
+  --font-size-lg-3: 18.3px;
+  --font-size-xl-7: 20.7px;
+  --font-size-2xl-1: 21.1px;
+  --font-size-4xl-2: 23.2px;
+  --font-size-31xl-6: 50.6px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-darkcyan: #429283;
+  --color-darkgray: #a4a4a4;
+  --color-darkslateblue: #425492;
+  --color-darkslategray-100: #3a3a3a;
+  --color-darkslategray-200: #373737;
+  --color-dimgray-100: #686868;
+  --color-dimgray-200: #626262;
+  --color-dodgerblue-100: #2495fd;
+  --color-dodgerblue-200: rgba(36, 149, 253, 0.8);
+  --color-gainsboro-100: #e4e4e4;
+  --color-gainsboro-200: #d9d9d9;
+  --color-gray-100: #7a7a7a;
+  --color-gray-200: rgba(0, 0, 0, 0.5);
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-12xs-8: 0.8px;
+  --gap-9xs: 4px;
+  --gap-8xs-4: 4.4px;
+  --gap-8xs: 5px;
+  --gap-7xs-3: 5.3px;
+  --gap-7xs-4: 5.4px;
+  --gap-7xs-5: 5.5px;
+  --gap-7xs-7: 5.7px;
+  --gap-6xs-8: 6.8px;
+  --gap-6xs: 7px;
+  --gap-5xs-3: 7.3px;
+  --gap-5xs-5: 7.5px;
+  --gap-4xs-2: 8.2px;
+  --gap-4xs-3: 8.3px;
+  --gap-3xs: 10px;
+  --gap-2xs-7: 10.7px;
+  --gap-2xs: 11px;
+  --gap-xs: 12px;
+  --gap-sm-5: 13.5px;
+  --gap-mini: 15px;
+  --gap-base: 16px;
+  --gap-base-9: 16.9px;
+  --gap-xl: 20px;
+  --gap-4xl: 23px;
+  --gap-6xl: 25px;
+  --gap-16xl: 35px;
+  --gap-17xl: 60px;
+  --gap-19xl: 38px;
+  --gap-20xl: 39px;
+  --gap-24xl: 43px;
+  --gap-25xl: 44px;
+  --gap-29xl: 48px;
+  --gap-57xl: 76px;
+  --gap-65xl: 84px;
+  --gap-81xl: 100px;
+  --gap-90xl: 109px;
+
+  /* Paddings */
+  --padding-11xs: 2px;
+  --padding-10xs-3: 2.3px;
+  --padding-10xs-5: 2.5px;
+  --padding-8xs-8: 4.8px;
+  --padding-7xs-3: 5.3px;
+  --padding-6xs-8: 6.8px;
+  --padding-5xs-5: 7.5px;
+  --padding-5xs: 8px;
+  --padding-4xs-3: 8.3px;
+  --padding-3xs: 10px;
+  --padding-2xs-7: 10.7px;
+  --padding-2xs: 11px;
+  --padding-sm-6: 13.6px;
+  --padding-base-6: 16.6px;
+  --padding-mid: 17px;
+  --padding-lg-2: 18.2px;
+  --padding-lgi-6: 19.6px;
+  --padding-2xl-5: 21.5px;
+  --padding-6xl: 25px;
+  --padding-7xl-7: 26.7px;
+  --padding-31xl: 50px;
+  --padding-47xl: 66px;
+  --padding-51xl: 70px;
+
+  /* Border radiuses */
+  --br-8xs-3: 4.3px;
+  --br-8xs-8: 4.8px;
+  --br-8xs: 5px;
+  --br-6xs-4: 6.4px;
+  --br-6xs-6: 6.6px;
+  --br-3xs: 10px;
+  --br-2xs: 11px;
+  --br-xs-3: 11.3px;
+  --br-smi-4: 12.4px;
+  --br-2xl-3: 21.3px;
+  --br-2xl-8: 21.8px;
+  --br-29xl: 48px;
+  --br-56xl: 75px;
+  --br-69xl: 88px;
+  --br-106xl: 125px;
+
+  /* Figma Variables */
+
+  /* Number Variables */
+  --display-medium-tracking: 0px;
+  --title-large-tracking: 0px;
+  --label-large-tracking: 0.10000000149011612px;
+  --title-small-tracking: 0.10000000149011612px;
+  --title-medium-tracking: 0.15000000596046448px;
+  --body-medium-tracking: 0.25px;
+  --body-large-tracking: 0.5px;
+  --label-large-size: 14px;
+  --title-small-size: 14px;
+  --body-medium-size: 14px;
+  --title-medium-size: 16px;
+  --body-large-size: 16px;
+  --label-large-line-height: 20px;
+  --title-small-line-height: 20px;
+  --body-medium-line-height: 20px;
+  --title-large-size: 22px;
+  --headline-small-size: 24px;
+  --title-medium-line-height: 24px;
+  --body-large-line-height: 24px;
+  --title-large-line-height: 28px;
+  --headline-medium-size: 28px;
+  --display-small-size: 36px;
+  --display-medium-size: 45px;
+  --display-medium-line-height: 52px;
+  --display-large-size: 57px;
+}

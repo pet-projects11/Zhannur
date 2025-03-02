@@ -1,0 +1,99 @@
+.frame128 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.frame127 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+  position: relative; /* Убрали absolute */
+}
+
+.property-display {
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.group10 {
+  width: 1320px;
+  position: relative;
+  height: 1024.1px;
+  text-align: left;
+  font-size: var(--font-size-2xs-6);
+  color: var(--color-white);
+  font-family: var(--m3-display-large);
+}
+.title {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.description {
+  margin: 0;
+  position: relative;
+  font-size: var(--title-large-size);
+  line-height: var(--m3-headline-medium-size);
+  font-weight: 400;
+  font-family: inherit;
+  text-align: center;
+  opacity: 0.5;
+}
+.frame22 {
+  width: 694px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--display-small-size);
+  color: var(--color-black);
+  font-family: var(--m3-display-large);
+}
+.frame23 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--display-small-size);
+  color: var(--color-black);
+  font-family: var(--m3-display-large);
+}
+.property-display-container {
+  position: relative;
+  z-index: 1;
+  transition: height 0.5s ease;
+}
+
+.content-below {
+  position: relative;
+  z-index: 0;
+}
+
+/* Анимация для появления новых карточек */
+.property-row {
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

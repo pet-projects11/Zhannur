@@ -1,0 +1,118 @@
+.heading {
+  margin: 0;
+  width: 408px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.25px;
+  line-height: 64px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.text60 {
+  align-self: stretch;
+  position: relative;
+  line-height: var(--display-medium-line-height);
+}
+.feature-description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame131 {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  font-size: var(--display-medium-size);
+}
+.feature-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+}
+.divider {
+  width: 96px;
+  height: 4px;
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+}
+.data-point {
+  align-self: stretch;
+  position: relative;
+  line-height: 52px;
+}
+.data-value {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--display-small-size);
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.data-label {
+  margin: 0;
+  width: 331px;
+  position: relative;
+  font-size: var(--title-large-size);
+  line-height: var(--m3-headline-medium-size);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.feature-item {
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.feature-list {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-90xl);
+  font-size: var(--display-medium-size);
+}
+.frame130 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 264px);
+  right: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+  text-align: left;
+  font-size: var(--display-large-size);
+  color: var(--color-white);
+  font-family: var(--m3-display-large);
+}
+.group12 {
+  position: absolute;
+  height: 68.04%;
+  width: 55.21%;
+  top: 16.24%;
+  right: 36.04%;
+  bottom: 15.72%;
+  left: 8.75%;
+  filter: drop-shadow(0px 4px 8.9px rgba(0, 0, 0, 0.25));
+  text-align: left;
+  font-size: var(--display-large-size);
+  color: var(--color-white);
+  font-family: var(--m3-display-large);
+}

@@ -1,0 +1,12 @@
+.frame184 {
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-81xl);
+  text-align: left;
+  font-size: var(--display-small-size);
+  color: var(--color-black);
+  font-family: var(--m3-display-large);
+}

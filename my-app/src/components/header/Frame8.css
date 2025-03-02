@@ -1,0 +1,88 @@
+.frame6 {
+  width: 1920px;
+  height: 125px;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px var(--padding-51xl);
+  gap: var(--gap-0);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--display-small-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--m3-display-large);
+}
+.group-icon {
+  height: 42.8px;
+  width: 40.1px;
+  position: relative;
+}
+.text {
+  text-decoration: none;
+  position: relative;
+  line-height: 44px;
+  font-weight: 700;
+  color: inherit;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--display-small-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--m3-display-large);
+}
+.frame5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+  text-align: left;
+  font-size: var(--headline-small-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--m3-display-large);
+}
+.text-frame {
+  width: 115px;
+  position: relative;
+  height: 32px;
+  text-align: left;
+  font-size: var(--headline-small-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--m3-display-large);
+}
+.text3 {
+  text-decoration: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 32px;
+  white-space: nowrap;
+  color: inherit;
+}
+.text-container {
+  width: 122px;
+  position: relative;
+  height: 32px;
+  text-align: left;
+  font-size: var(--headline-small-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--m3-display-large);
+}
+.text-wrapper {
+  width: 126px;
+  position: relative;
+  height: 32px;
+  text-align: left;
+  font-size: var(--headline-small-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--m3-display-large);
+}

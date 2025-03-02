@@ -1,0 +1,32 @@
+.main {
+  width: 1920px;
+  height: 783px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.frame-wrapper {
+  width: 1920px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 45.4px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.home {
+  width: 1920px;
+  height: 100%;
+  background-color: #f8f8f8;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 47.3px;
+}

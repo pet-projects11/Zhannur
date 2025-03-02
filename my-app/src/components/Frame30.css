@@ -1,0 +1,102 @@
+.text86 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 44px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.text87 {
+  margin: 0;
+  position: relative;
+  font-size: var(--title-large-size);
+  line-height: var(--m3-headline-medium-size);
+  font-weight: 400;
+  font-family: inherit;
+  width: max-content;
+  text-align: center;
+  opacity: 0.5;
+}
+.frame180 {
+  width: 694px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.vector-icon9 {
+  height: 18.5px;
+  width: 10.7px;
+  position: relative;
+  transform: rotate(-180deg);
+}
+.frame182 {
+  height: 55px;
+  width: 54px;
+  border-radius: var(--br-29xl);
+  background-color: var(--color-dodgerblue-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-11xs);
+  box-sizing: border-box;
+  transform: rotate(180deg);
+}
+.vector-icon10 {
+  height: 18.5px;
+  width: 10.7px;
+  position: relative;
+}
+.frame183 {
+  height: 55px;
+  width: 54px;
+  border-radius: var(--br-29xl);
+  background-color: var(--color-dodgerblue-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-11xs);
+  box-sizing: border-box;
+}
+.frame181 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-mini);
+  font-size: var(--headline-small-size);
+}
+.frame179 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 260.3px);
+  right: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-57xl);
+  text-align: left;
+  font-size: var(--display-small-size);
+  color: var(--color-black);
+  font-family: var(--m3-display-large);
+}
+
+.group18 {
+  width: 1920x;
+  position: relative;
+  height: 520.6px;
+  text-align: left;
+  font-size: var(--display-small-size);
+  color: var(--color-black);
+  font-family: var(--m3-display-large);
+}
